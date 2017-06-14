@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            if("WebSocket" in window) {
+                var url = 'ws://localhost:8080';
+                var ws = new WebSocket(url);
+            }
+            else {
+                alert('Your browser does not support websokets');
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
